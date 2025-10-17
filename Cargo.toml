@@ -1,0 +1,11 @@
+[package]
+name = "rsa_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+num-bigint = { version = "0.4", features = ["rand"] }
+num-integer = "0.1.46"
+num-traits = "0.2.19"
+rand = "0.8"
